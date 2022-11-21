@@ -256,16 +256,63 @@ exit()
 
 
 
+Set:
+======
+	if we want to store
+	group of values as a single entity where with out insertion order and duplicates 
+
+
+		1)duplicates are not allowed
+		2)insertion order is not preserved / followed
+		3)Both Homogeneous and Heterogeneous allowed
+		4)growable in nature
+		5){}
+		6)muttable
+		7)index not applicable
+		
+>>> names={'sandeep','mahesh','suresh','rajesh','mahesh'}
+>>> type(names)
+<class 'set'>
+>>> print(names)
+{'sandeep', 'suresh', 'rajesh', 'mahesh'}
+>>> print(names[0])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'set' object is not subscriptable
+>>> print(names.add(789))
+None
+>>> print(names)
+{'rajesh', 'mahesh', 'sandeep', 'suresh', 789}
+>>> names.remove('suresh');
+>>> print(names)
+{'rajesh', 'mahesh', 'sandeep', 789}
 
 
 
 
+FrozenSet
+=========
+		if we want to store
+	group of values as a single entity where with out insertion order and duplicates 
 
 
+		1)duplicates are not allowed
+		2)insertion order is not preserved / followed
+		3)Both Homogeneous and Heterogeneous allowed
+		4)growable in nature
+		5) frozenset({})
+		6)imuttable
+		7)index not applicable
+		
+Dict:
+=====
+	if we want to store	group of values as a key-value 
 
+	dict={1:'sandeep',2:'mahesh',3:'rajesh',1:'somesh'}
 
+		1)duplicate keys are not allowed but values can be duplicated 
 
-
+		2)dict is mutable and the order won't be preserved 
 
 
 
