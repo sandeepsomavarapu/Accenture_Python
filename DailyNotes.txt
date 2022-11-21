@@ -1,13 +1,54 @@
+Language:
+=========
+			Communication
 
+Programming Language:
+=====================
+			Communication with machines
+			
+			POP            			  OOP	OMG
+	B,BCPL,COBOL,PHOTON,C..			Java,C++,Python,.net......		
+	
+	
+					Performance  	Inheritance,Polymorphisam
+					Security		Abstraction,Encapsulation
+	
+			
+					python oopl/oops
+					
 Python:
 =======
 
 
+	welcome to india
 
 
+	java			2014 java8
+	=====				James Gosling		1995
+	class Welcome
+	{
+	public static void main(String args[])		19
+	{
+	System.out.println("welcome to india");
+	}
+	}
+	
+	Python:				guido van rossum     1991 feb 20th
+	========
+	print("welcome to india");
+	
+	
+	1.x
+	2.x
+	3.x
+	
+		functional programming from C
+		Object oriented  from C++
+		scripting lang features from shellscript
+		modular programming from Modula-3
 
 
-
+		syntax derived from C,ABC 
 
 
 
